@@ -1159,7 +1159,6 @@ if (pricingBtn && modal && closeBtn) {
     event.preventDefault();
     
     if (confirm("Do you want to download the manual.pdf file?")) {
-        // Create a temporary link and trigger download
         const link = document.createElement('a');
         link.href = 'manual.pdf';
         link.download = 'manual.pdf';
